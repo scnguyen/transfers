@@ -25,9 +25,6 @@
                     <div class="uk-card-body">
                         <h3 class="uk-card-title">{member.name}</h3>
                         <p class=" uk-text-mute uk-text-uppercase">{member.title}</p>
-                        <p class="uk-margin-bottom">
-                            <a href={`mailto:${member.email}`}>{member.email}</a>
-                        </p>
                         {member.link && member.link !== "#" && (
                         <a href={member.link} target="_blank" class="uk-button uk-button-default">
                             <span uk-icon="icon: user; ratio: .75" class="uk-margin-small-right" />
@@ -40,6 +37,6 @@
             ))}
         </div>
     </div>
-    ); $(() => { $.getJSON( "https://raw.githubusercontent.com/EOPAtCal/transfers/master/staff.json", json => { ReactDOM.render(
+    ); $(() => { $.getJSON( "https://raw.githubusercontent.com/EOPAtCal/transfers/master/starting-point-staff.json", json => { ReactDOM.render(
     <App staff={json} />, document.getElementById("root")); } ); });
 </script>
