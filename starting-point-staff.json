@@ -1,19 +1,19 @@
 [{
         "name": "Andrew Henry",
         "title": "Program Coordinator",
-        "image": "https://static1.squarespace.com/static/53b34431e4b0988226f28acd/t/5a832c6e0852296e82ed000f/1518546035083/Andrew.jpg?format=400w",
-        "profile": "https://transfers.berkeley.edu/andrew-henry"
+        "photo": "https://static1.squarespace.com/static/53b34431e4b0988226f28acd/t/5a832c6e0852296e82ed000f/1518546035083/Andrew.jpg?format=400w",
+        "link": "/andrew-henry"
     },
     {
         "name": "Caitlin Horn",
         "title": "Student Coordinator",
-        "image": "https://static1.squarespace.com/static/53b34431e4b0988226f28acd/t/5ac50508f950b7c9488f3d8d/1522861326340/caitlin.jpg?format=750w",
-        "profile": "https://transfers.berkeley.edu/caitlin-horn"
+        "photo": "https://static1.squarespace.com/static/53b34431e4b0988226f28acd/t/5ac50508f950b7c9488f3d8d/1522861326340/caitlin.jpg?format=750w",
+        "link": "/caitlin-horn"
     },
     {
         "name": "Corey Lowe",
         "title": "Student Coordinator",
-        "image": "https: //static1.squarespace.com/static/53b34431e4b0988226f28acd/t/5ac504f80e2e7272acf665b0/1522861310102/Corey.jpg?format=750w",
-        "profile": "https://transfers.berkeley.edu/corey-lowe"
+        "photo": "https: //static1.squarespace.com/static/53b34431e4b0988226f28acd/t/5ac504f80e2e7272acf665b0/1522861310102/Corey.jpg?format=750w",
+        "link": "/corey-lowe"
     }
 ]
