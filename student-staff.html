@@ -1,8 +1,9 @@
 <!-- jquery -->
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-<!-- custom uikit -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/EOPAtCal/uikit-custom-css@v0.3/uikit-iso.min.css" />
-<!-- default uikit -->
+<!-- custom uikit css -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/EOPAtCal/uikit-custom-css@v0.7/uikit-iso.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/EOPAtCal/uikit-custom-css@v0.7/uikit-iso-overrides.min.css" />
+<!-- default uikit js -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/js/uikit.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/js/uikit-icons.min.js"></script>
 <!-- react -->
@@ -15,7 +16,7 @@
 <div id="root"></div>
 <script type="text/babel">
     const App = ({ staff = [] }) => (
-    <div class="uikit-iso">
+    <div class="uikit">
         <div style={{ fontWeight: 300 }} class="uk-child-width-1-2@s uk-child-width-1-3@m uk-child-width-1-4@l uk-grid-small uk-grid-match" data-uk-grid data-uk-scrollspy="target: > div; cls:uk-animation-fade; delay: 400">
             {staff.map(member => (
             <div key={member.email}>
